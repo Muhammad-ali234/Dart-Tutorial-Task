@@ -59,10 +59,21 @@ void main() {
   print(numbers.contains(4)); // prints true
 
   // functions are blocks of code that perform a specific task and can be called and executed at any point in your program.
-  // define a function
+  //There is two types of function one is empty functions that returns nothing other function is return a value.
+
+  //Function that returns no value
   void greet(String name) {
     print('Hello, $name!');
   }
   // call the function
   greet('Ali'); // prints Hello, Alice!
+
+
+  //Function that return a value
+  int add(int a, int b) {
+  return a + b;
+  }
+
+  var sum = add(2, 3);
+  print(sum); // prints 5
 }
