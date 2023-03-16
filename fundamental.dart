@@ -23,11 +23,11 @@ void main() {
   int myInt = 5;
   print("it is a integer value:$myInt");
   double myDouble = 5.5;
-    print("\nit is a double value:$myInt");
+    print("\nit is a double value:$myDouble");
 
   //Strings  represent a sequence of characters
   String myString = "Hello";
-  print("\nit is a double value:$myDouble");
+  print("\nit is a double value:$myString");
 
   //Booleans  It represents Boolean values true and false;
   bool myBool = true;
